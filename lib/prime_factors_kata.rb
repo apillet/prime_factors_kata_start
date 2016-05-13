@@ -1,0 +1,3 @@
+module PrimeFactorsKata
+  # Your code goes here...
+end
