@@ -27,5 +27,7 @@ describe PrimeFactorsKata do
     expect(PrimeFactorsKata.solve(6)).to eq([2, 3])
     expect(PrimeFactorsKata.solve(8)).to eq([2, 2, 2])
     expect(PrimeFactorsKata.solve(9)).to eq([3, 3])
+
+    expect(PrimeFactorsKata.solve(168)).to eq([2, 2, 2, 3, 7])
   end
 end
